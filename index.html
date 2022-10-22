@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ITC</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <a href="#" class="logo">ITC<span>.</span></a>
+        <div class="menuToggle" onclick="menuToggle();"></div>
+        <ul class="navigation">
+            <li><a href="#banner" onclick="menuToggle();">Trang chủ</a></li>
+            <li><a href="#about" onclick="menuToggle();">Giới thiệu</a></li>
+            <li><a href="#testimonials" onclick="menuToggle();">Chủ nhiệm</a></li>
+            <li><a href="#menu" onclick="menuToggle();">Khóa học</a></li>
+            <li><a href="#expert" onclick="menuToggle();">Cuộc thi</a></li>
+            <li><a href="#contact" onclick="menuToggle();">Liên hệ</a></li>
+        </ul>
+    </header>
+
+   
+
+    <section class="banner" id="banner">
+        <div class="content">
+            <h2>Học cùng ITC</h2>
+            <p>lập trình là việc lập ra chương trình làm việc cho máy có bộ xử lý, nói riêng là máy tính, để thực thi nhiệm vụ xử lý thông tin nào đó. Chương trình này gồm dãy các chỉ thị hợp lý để máy thực hiện theo trình tự thời gian</p>
+            <a href="#" class="btn">Our Menu</a>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="row">
+            <div class="col50">
+                <h2 class="titleText"><span>G</span>iới Thiệu</h2>
+                <p>Câu lạc bộ ITC trực thuộc Khoa Công nghệ thông tin Trường Đại học kinh tế kỹ thuật công nghiệp được thành lập nhằm mục đích
+                    Giúp đỡ các bạn sinh viên trong việc học tập các môn học cơ sở ngành Kĩ thuật lập trình Cấu trúc dữ liệu & Giải thuật Lí thuyết đồ thị Kiến trúc Hệ điều hành máy tính Lập trình hướng đối tượng
+                    Tuyển chọn bồi dưỡng các SV có năng lực vào thành phần Đội tuyển Olympic Tin học Sinh viên UNETI
+                    Hỗ trợ SV thực hiện đề tài NCKH và tổ chức các kì thi lập trình các hoạt động ngoại khoá
+                    Hãy nhanh tay tham gia để có cơ hội trở thành thành viên trong ngôi nhà chung ITC ngay thôi nào
+                    Giúp đỡ các bạn sinh viên trong việc học tập các môn học cơ sở ngành Kĩ thuật lập trình Cấu trúc dữ liệu & Giải thuật Lí thuyết đồ thị Kiến trúc Hệ điều hành máy tính Lập trình hướng đối tượng
+                    Tuyển chọn bồi dưỡng các SV có năng lực vào thành phần Đội tuyển Olympic Tin học Sinh viên UNETI
+                    Hỗ trợ SV thực hiện đề tài NCKH và tổ chức các kì thi lập trình các hoạt động ngoại khoá
+                    Hãy nhanh tay tham gia để có cơ hội trở thành thành viên trong ngôi nhà chung ITC ngay thôi nào
+                </p>
+            </div>
+            <div class="col50">
+                <div class="imgBx">
+                    <img id="img" onclick="changeImage()" src="./image/logo/logo ITC.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials" id="testimonials">
+        <div class="title white">
+            <h2 class="titleText">Ban <span>C</span>hủ nhiệm</h2>
+            <p>Thông tin về ban chủ nhiệm cậu lạc bộ ITC</p>
+        </div>
+        <div class="content">
+            <div class="box">
+                <div class="imgBx">
+                    <img src="./image/student/1.png" alt="">
+                </div>
+                <div class="text">
+                    <p>Trần Thị Thúy Nga là nữ phó chủ nhiệm câu lạc bộ tin học với khả năng giao tiếp và vô cùng hoạt bát trong công việc
+                        cô là nguồn năng lượng để cậu lạc bộ vươn cao vươn xa hơn.
+                    </p>
+                    <h3>Xem thông tin</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="./image/student/2.png" alt="">
+                </div>
+                <div class="text">
+                    <p>Vũ Thành Đạt trức vụ phó chủ nhiệm câu lạc bộ tin học với tính cách hòa đồng vui vẻ cộng với sự nhiệt huyết năng
+                        nổ tuổi trẻ cậu là một thành viên vô cùng ưu tú trong cậu lạc bộ.
+                    </p>
+                    <h3>Xem thông tin</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="./image/student/3.jpg" alt="">
+                </div>
+                <div class="text">
+                    <p>Cô Lê Thị Thu Hiền là chủ nhiệm câu lạc bộ tin học ITC tính các vui vẻ hòa đồng trong công việc cô là người 
+                        đắp những viên ngạch đầu tiên xây dựng nên câu lạc bộ ITC.
+                    </p>
+                    <h3>Xem thông tin</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="menu" id="menu">
+        <div class="title">
+            <h2 class="titleText">Khóa<span> H</span>ọc</h2>
+            <p>Đây là các khóa học và đầy đủ và chi tiết của clb ITC</p>
+        </div>
+        <div class="content">
+            <div class="box">
+                <div class="imgBx">
+                    <img src="./image/course/dohoa.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h3>Thiết kế đồ họa</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="./image/course/web.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h3>lập trình Web</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="./image/course/c++.png" alt="">
+                </div>
+                <div class="text">
+                    <h3>Lập trình C++</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="./image/course/js.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h3>Lập trình javascript</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="./image/course/rb.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h3>Lập trình Ruby</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="./image/course/c.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h3>Lập trình C#</h3>
+                </div>
+            </div>
+        </div>
+        <div class="title">
+            <a href="#" class="btn">Xem tất cả</a>
+        </div>
+    </section>
+
+    <section class="expert" id="expert">
+        <div class="title">
+            <h2 class="titleText">Các <span>C</span>uộc thi</h2>
+            <p>Những cuộc thi nhằm phát động phong trào trong ITC.</p>
+        </div>
+        <div class="content">
+            <div class="box">
+                <div class="imgBx">
+                    <img src="./image/competition/Cuộc Thi Olympic Tin học.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h3>Cuộc thi Olympic tin học</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="./image/competition/cuộc thi tháng 11 tri ân.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h3>Cuộc thi tháng 11 tri ân</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="./image/competition/Cuộc thi Tiktok with ITC.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h3>Cuộc thi Tiktok with ITC</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="./image/competition/teacherday.png" alt="">
+                </div>
+                <div class="text">
+                    <h3>Cuộc thi thiết kế banner</h3>
+                </div>
+            </div>
+            <div class="title">
+                <a href="#" class="btn">Xem tất cả</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="title">
+            <h2 class="titleText"><span>L</span>iên hệ</h2>
+            <p>Mọi thắc mắc xin vui lòng liên hệ ở đây</p>
+        </div>
+        <div class="contactForm">
+            <h3>Send Message</h3>
+            <div class="inputBox">
+                <input type="text" placeholder="name">
+            </div>
+            <div class="inputBox">
+                <input type="text" placeholder="Email">
+            </div>
+            <div class="inputBox">
+                <textarea placeholder="Nội dung"></textarea>
+            </div>
+            <div class="inputBox">
+                <input type="submit" placeholder="Send">
+            </div>
+        </div>
+    </section>
+
+    <div class="copyrightText">
+        <p>© 2018 - 2022 Câu lạc bộ  <a href="#"> ITC Khoa CNTT</a> UNETI</p>
+    </div>
+
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <script type="text/javascript">
+        window.addEventListener("scroll", function () {
+            const header = document.querySelector("header");
+            header.classList.toggle("sticky", window.scrollY > 0);
+        });
+
+
+        function menuToggle() {
+            const menuToggle = document.querySelector(".menuToggle");
+            const navigation = document.querySelector(".navigation");
+            menuToggle.classList.toggle('active');
+            navigation.classList.toggle('active');
+        }
+    </script>
+
+    <script>
+        var index = 1;
+         changeImage = function() {
+            var imgs = ["./image/logo/logo ITC.jpg", "./image/logo/logo Uneti.jpg"];
+            document.getElementById("img").src = imgs[index];
+            index++;
+            if(index == 2) {
+                index = 0;
+            }
+        }
+        setInterval(changeImage, 1000);
+    </script>
+
+</body>
+
+</html>
